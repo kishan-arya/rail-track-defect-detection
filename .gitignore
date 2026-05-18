@@ -1,0 +1,14 @@
+# large files — never commit these
+*.pth
+*.tar
+*.pth.tar
+
+# dataset
+*.jpg
+*.png
+*.jpeg
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
