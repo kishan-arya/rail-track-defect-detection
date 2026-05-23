@@ -18,6 +18,14 @@ Extract features using frozen FCCN backbone, classify with SVM, KNN, Random Fore
 FCCN's complex-valued iHSV colour encoding outperforms standard ResNet152
 by +2.7% accuracy and +5.4% defective recall.
 
+### Task 2 — Fine-tuning FCCN ResNet152
+| Val Accuracy | Test Accuracy |
+|-------------|---------------|
+| 97.8%       | 93.7%         |
+
+**Key finding:** Frozen feature extraction (95.5%) outperformed 
+fine-tuning (93.7%) on this small dataset (444 training images).
+
 ## Dataset
 Private dataset — 555 rail track images (444 train, 111 test), balanced binary classes.
 
